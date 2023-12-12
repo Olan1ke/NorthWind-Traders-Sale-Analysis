@@ -80,5 +80,39 @@ Power Bi automatically connected the seven tables,but i had to connected the two
 
 ![](Data_Model.png)
 
+## Data Analysis and Visuals
+1. Total revenue across the countries
+![](Total_Revenue.png)
+
+2. The average revenue growth rate for Northwind Traders across the countries.
+![](Average_Revenue.png)
+
+3. Average days  to delivery goods
+![](Average_Days_To_Ship.png)
+
+4. Average discount giving.
+![](Average_Discount.png)
+
+5. Average cost of shipping goods.
+![](Averge_shipping_cost.png)
+
+6. Breakdown for sales by product catergory.
+![](Revenue_By_Category.png)
+
+7. Analyse the revenue and order of goods Monthly.
+![](By_Month.png)
+
+8. Country that generated the most revenue and the least revenue.
+![](By_Country.png)
+ 
+9. Top five(5) customers and their countries
+![](Top5.png)
+
+10. Employee perfomace in terms of genarating revenue.
+![](By_Employee.png)
+
+The Northwind Traders Sales Dashboard
+![](Northwind_Dashboard.png)
+
 
 
