@@ -43,15 +43,19 @@ It contains seven (7) tables:
 
  I uploaded the datasets into the power query editor, and this steps where taken;
 
- . The data looks cleans ,so no much cleaning was done .
- . I check the column quality and column distribution of data data,everything was ok.
- . I did some transformation by mergin some tables together;
-      1.  Order_details + orders = Merge 1 on orders Id
-         Merge 1 + employees = Merge 2 on employee Id
-         Merge 2 + categories = Merge 3 on caterory Id,
+ . The data looks cleans ,so no much cleaning was done 
+ 
+ . I check the column quality and column distribution of data data,everything was ok
+ 
+ . I did some transformation by mergin some tables together:
+     
+   Order_details + orders = Merge 1 on ordersId
+        
+   Merge 1 + employees = Merge 2 on employeeId
+        
+   Product + category = Merge 1 on categoryId,renamed to Product details
 
-       I renamed Merge 3 has Sales details.
-    2.
+   Merge 2 + Product details = 3 on productId,renamed to Sales details
 
 
 
