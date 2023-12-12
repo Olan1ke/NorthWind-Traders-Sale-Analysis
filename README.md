@@ -78,7 +78,7 @@ It contains seven (7) tables:
 
 Power Bi automatically connected the seven tables,but i had to connected the two i created the product detail and the Sales detail table. The Sales Detail table was the Fact table while the others are Dimensional Table.
 
-1[](Data_Model.png)
+![](Data_Model.png)
 
 
 
