@@ -47,15 +47,32 @@ It contains seven (7) tables:
  
  . I check the column quality and column distribution of data data,everything was ok
  
- . I did some transformation by mergin some tables together:
+ . I did some transformation by merging some tables together:
      
    Order_details + orders = Merge 1 on ordersId
+   ![](Merging_1.png)
         
-   Merge 1 + employees = Merge 2 on employeeId
-        
+   Merge 1 + customers = Merge 2 on  customersId
+    ![](Merging_2.png)    
+    
    Product + category = Merge 1 on categoryId,renamed to Product details
-
+    ![](Merging_3.png)
+    
    Merge 2 + Product details = 3 on productId,renamed to Sales details
+
+   ## Dax
+
+   I created some columns in the sales details table that i created;
+
+   1. Days To Ship = DATEDIFF(Sales_Details[OrderDate],Sales_Details[ShippedDate],DAY)
+      ![](Days_to_ship.png)
+   2. To calculate the Net/Total Revenue, I had to calcuate:
+   . Discount ($) = Sales_Details[Gross Revenue]* Sales_Details[Discount (%)]
+      ![](Discount_$.png)
+   . Gross Revenue = Sales_Details[UnitPrice] * Sales_Details[Quantity]
+      ![](Gross_revenue.png)
+  3.  Net Revenue = Sales_Details[Gross Revenue] -Sales_Details[Discount ($)]
+      ![](Net_Revenue.png)
 
 
 
