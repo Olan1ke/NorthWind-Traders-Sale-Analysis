@@ -23,7 +23,7 @@ _Disclamier_**:_All Dataset do not represent any individual, Institution or comp
 7. Analyse the revenue and order of goods Monthly.
 7. What country generated the most revenue and the least revenue
 8.  Who are Top five(5) customers and their countries
-9. What is the employee perfomace in terms og genarating revenue.
+9. What is the employee perfomace in terms of genarating revenue.
 
 ## Data Sourcing
 
@@ -38,6 +38,20 @@ It contains seven (7) tables:
 5. orders with 830 rows and 8 columns.
 6. products with 77 rows and 6 columns.
 7. shippers with 3 rows and 2 columns.
+
+## Data cleaning/Transformation
+
+ I uploaded the datasets into the power query editor, and this steps where taken;
+
+ . The data looks cleans ,so no much cleaning was done .
+ . I check the column quality and column distribution of data data,everything was ok.
+ . I did some transformation by mergin some tables together;
+      1.  Order_details + orders = Merge 1 on orders Id
+         Merge 1 + employees = Merge 2 on employee Id
+         Merge 2 + categories = Merge 3 on caterory Id,
+
+       I renamed Merge 3 has Sales details.
+    2.
 
 
 
