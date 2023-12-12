@@ -116,10 +116,16 @@ The Northwind Traders Sales Dashboard
 
 ## Conclusion And Recommendation
 . It takes 8 days on average to delivery goods, the days are too much.It should be look into.
+
 . Most Revenue and order is generated in April while june has the lowest sales.
+
 . Beverage is the category of product that generated the most revenue.
-. Margaret Peacock generated more than 200000($),while Steven Buchanan did not generate uo to 10000($).Margaret should be commended while steven should be giving a set target.
+
+. Margaret Peacock generated more than 200000($),while Steven Buchanan did not generate uo to 10000($).
+Margaret should be commended while steven should be giving a set target.
+
 . The Average revenue is 587 while average cost of shipping is 96.20. I feel a better,cheaper and faster shipping company should used for shipping the goods.
+
 . USA genrated most revenue while canada generated the least.
 
 
