@@ -81,38 +81,45 @@ Power Bi automatically connected the seven tables,but i had to connected the two
 ![](Data_Model.png)
 
 ## Data Analysis and Visuals
-1. Total revenue across the countries
-![](Total_Revenue.png)
+1. Total revenue across the countries is 1,270,000($)
+   ![](Total_Revenue.png)
 
-2. The average revenue growth rate for Northwind Traders across the countries.
+2. The average revenue growth rate for Northwind Traders across the countries is 587.37($)
 ![](Average_Revenue.png)
 
-3. Average days  to delivery goods
+3. Average days  to delivery goods is 8 days
 ![](Average_Days_To_Ship.png)
 
-4. Average discount giving.
+7. Average discount giving is 41.14($)
 ![](Average_Discount.png)
 
-5. Average cost of shipping goods.
+8. Average cost of shipping goods is Average(freight) = 96.20($)
 ![](Averge_shipping_cost.png)
 
-6. Breakdown for sales by product catergory.
+9. Breakdown for sales by product catergory.
 ![](Revenue_By_Category.png)
 
-7. Analyse the revenue and order of goods Monthly.
+10. Analyse the revenue and order of goods Monthly.
 ![](By_Month.png)
 
-8. Country that generated the most revenue and the least revenue.
+11. Country that generated the most revenue and the least revenue.
 ![](By_Country.png)
  
-9. Top five(5) customers and their countries
+12. Top five(5) customers and their countries
 ![](Top5.png)
 
-10. Employee perfomace in terms of genarating revenue.
+13. Employee perfomace in terms of genarating revenue.
 ![](By_Employee.png)
 
 The Northwind Traders Sales Dashboard
 ![](Northwind_Dashboard.png)
 
+## Conclusion And Recommendation
+. It takes 8 days on average to delivery goods, the days are too much.It should be look into.
+. Most Revenue and order is generated in April while june has the lowest sales.
+. Beverage is the category of product that generated the most revenue.
+. Margaret Peacock generated more than 200000($),while Steven Buchanan did not generate uo to 10000($).Margaret should be commended while steven should be giving a set target.
+. The Average revenue is 587 while average cost of shipping is 96.20. I feel a better,cheaper and faster shipping company should used for shipping the goods.
+. USA genrated most revenue while canada generated the least.
 
 
