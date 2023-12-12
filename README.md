@@ -60,7 +60,7 @@ It contains seven (7) tables:
     
    Merge 2 + Product details = 3 on productId,renamed to Sales details
 
-   ## Dax
+   ## DAX
 
    I created some columns in the sales details table that i created;
 
@@ -74,6 +74,9 @@ It contains seven (7) tables:
   3.  Net Revenue = Sales_Details[Gross Revenue] -Sales_Details[Discount ($)]
       ![](Net_Revenue.png)
 
+## Data Modelling
+
+Power Bi automatically connected the seven tables,but i had to connected the two i created the product detail and the Sales detail table. The Sales Detail table was the Fact table while the others are Demensional Table.
 
 
 
